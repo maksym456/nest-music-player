@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Music App</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script defer src="app.js"></script>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <h2>My Music</h2>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Library</li>
+        <li>Playlists</li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="content">
+    <header>
+      <label>
+        <input type="text" placeholder="Search music...">
+      </label>
+    </header>
+    <section class="track-list">
+      <div class="track">
+        <div class="track-info">
+          <span class="track-title">Sample Song</span>
+          <span class="track-artist">Unknown</span>
+        </div>
+        <button class="play-btn" data-src="/sample.mp3">▶</button>
+      </div>
+      <audio id="audioPlayer" controls style="display: none;"></audio>
+    </section>
+  </main>
+</div>
+</body>
+</html>
