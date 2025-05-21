@@ -66,3 +66,11 @@ header input {
     font-size: 1.2rem;
     cursor: pointer;
 }
+
+.search-row {
+   margin-bottom: 20px;
+}
+
+.login-btn:hover {
+    background-color: #666;
+}
